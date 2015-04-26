@@ -1,0 +1,60 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 15/04/2015 10:11:15 p.m.
+#Cmp ( order = Reference )
+| C1         33u         
+| C2         100n        
+| C3         0.1u        
+| C4         22p         
+| C5         22p         
+| D1         DIODE       
+| D2         POWER LED   
+| D3         LED         
+| IC1        ATMEGA328P-P
+| ISP1       AVR_PRG_6PIN
+| J1         JACK_2P     
+| P1         CONN_6      
+| Q1         PN2222A     
+| R1         1K          
+| R2         10K         
+| R3         1M          
+| R4         10k         
+| R5         20k         
+| R6         100         
+| R7         10K         
+| R8         1K          
+| SW1        SWITCH_INV  
+| SW2        PUSH-BUTTON-NO
+| SW3        PUSH-BUTTON-NO
+| U1         7805        
+| X1         16MHz       
+#End Cmp
+
+#Componentes ( orden = Valor )
+| 22p          C4        
+| 22p          C5        
+| 0.1u         C3        
+| 100n         C2        
+| 33u          C1        
+| DIODE        D1        
+| POWER LED    D2        
+| LED          D3        
+| ATMEGA328P-P IC1       
+| AVR_PRG_6PIN ISP1      
+| JACK_2P      J1        
+| CONN_6       P1        
+| PN2222A      Q1        
+| 100          R6        
+| 1K           R1        
+| 1K           R8        
+| 10K          R2        
+| 10k          R4        
+| 10K          R7        
+| 20k          R5        
+| 1M           R3        
+| PUSH-BUTTON-NO SW2       
+| PUSH-BUTTON-NO SW3       
+| SWITCH_INV   SW1       
+| 7805         U1        
+| 16MHz        X1        
+#Fin Componentes
+
+#Fin de Lista

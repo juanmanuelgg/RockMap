@@ -1,0 +1,185 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 23/03/2015 11:23:49 p.m.
+
+BeginCmp
+TimeStamp = /5510B5A8;
+Reference = C1;
+ValeurCmp = 33u;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510B5C1;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510C1EC;
+Reference = C3;
+ValeurCmp = 0.1u;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510B3CB;
+Reference = C4;
+ValeurCmp = 22p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510B3BC;
+Reference = C5;
+ValeurCmp = 22p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510B567;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510B62C;
+Reference = D2;
+ValeurCmp = POWER LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510C2BA;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510AB59;
+Reference = IC1;
+ValeurCmp = ATMEGA328P-P;
+IdModule  = DIP-28__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510C669;
+Reference = ISP1;
+ValeurCmp = AVR_PRG_6PIN;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510A8FA;
+Reference = J1;
+ValeurCmp = JACK_2P;
+IdModule  = JACK_ALIM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510B9A6;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510AC23;
+Reference = Q1;
+ValeurCmp = PN2222A;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510B63B;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510C804;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510C0B4;
+Reference = R3;
+ValeurCmp = 1M;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510BF5A;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510BF69;
+Reference = R5;
+ValeurCmp = 20k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510CE81;
+Reference = R6;
+ValeurCmp = 100;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510CD93;
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510C2D8;
+Reference = R8;
+ValeurCmp = 1K;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510ACC5;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510B3DA;
+Reference = SW2;
+ValeurCmp = PUSH-BUTTON-NO;
+IdModule  = PUSH_BUTT_SHAPE1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510CD10;
+Reference = SW3;
+ValeurCmp = PUSH-BUTTON-NO;
+IdModule  = PUSH_BUTT_SHAPE1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510A983;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = LM78XXV;
+EndCmp
+
+BeginCmp
+TimeStamp = /5510B3A8;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+EndListe
