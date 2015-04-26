@@ -1,0 +1,22 @@
+1
+Piedras de Suesca:5:4:0,0:200,0:200,200:0,200
+7
+Zona 1:100:10:120:20
+3
+ruta 1:urlImagen1:5:5.10a:DEPORTIVA:55
+ruta 2:urlImagen1:4:5.10b:DEPORTIVA:60
+ruta 3:urlImagen1:3:5.10c:CLASICA:65
+Zona 2:120:20:120:30
+0
+Zona 3:120:30:100:40
+0
+Zona 4:100:40:90:50
+0
+Zona 5:90:50:85:60
+0
+Zona 6:85:60:95:70
+0
+Zona 7:95:70:120:80
+0
+
+

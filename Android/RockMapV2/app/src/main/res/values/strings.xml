@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RockMapV2</string>
+    <string name="title_activity_main">RockMap</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_camara">CamaraActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+
+    <string name="nombre_ruta">Punto</string>
+    <string name="dificultadMinima">Dificultad Minima</string>
+    <string name="dificultadMaxima">Dificultad Maxima</string>
+    <string name="parqueSeleccionado">Parque Seleccionado</string>
+    <string name="alturaMaxima">Altura maxima (m)</string>
+    <string name="buscar">Buscar</string>
+    <string name="title_activity_bienvenido">BienvenidoActivity</string>
+    <string name="tituloAplicacion">RockMap</string>
+    <string name="ingresarBienvenida">Ingresar</string>
+    <string name="ingresarFormatoDificultad">Formato de Dificultad Deseado</string>
+    <string name="title_activity_ver_rutas">verRutasActivity</string>
+    <string name="verRutas">Ver Rutas</string>
+    <string name="title_activity_ruta_individual">rutaIndividualActivity</string>
+    <string name="imagesService"> http://10.0.2.2:8080/upload </string>
+    <string name="getImagesService"> http://10.0.2.2:8080/uploads </string>
+
+    <string name="contentService">http://10.0.2.2:8080/rutas</string>
+    <string name="parkService">http://10.0.2.2:8080/nuevoparque</string>
+    <string name="downloadParks">http://10.0.2.2:8080/parques</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map">RockMap</string>
+    <string name="title_activity_agregar_parque">AgregarParqueActivity</string>
+    <string name="title_activity_agregar_ruta">AgregarRutaActivity</string>
+
+</resources>

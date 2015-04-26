@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/dificultadMinima"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDifmin"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false"
+        android:editable="false"
+        android:text="4"
+        android:textColor="#ffff870e"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/minima"
+        android:layout_gravity="center_horizontal"
+        android:indeterminate="false"
+        android:max="@integer/CantidadGradosDificultad"
+        android:progress="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/dificultadMaxima"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDifmax"
+        android:layout_gravity="center_horizontal"
+        android:text="4"
+        android:editable="false"
+        android:enabled="false"
+        android:textColor="#ffff870e"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maxima"
+        android:indeterminate="false"
+        android:max="@integer/CantidadGradosDificultad"
+        android:progress="@integer/CantidadGradosDificultad" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/parqueSeleccionado"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinParquesBusqueda"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/alturaMaxima"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:clickable="false"
+        android:editable="false" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberPicker"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar"
+        android:id="@+id/btnBuscar"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+    </ScrollView>

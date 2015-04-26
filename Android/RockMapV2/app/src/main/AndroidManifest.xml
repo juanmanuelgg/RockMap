@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="moviles.uniandes.com.rockmapv2" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <permission
+        android:name="moviles.uniandes.com.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="moviles.uniandes.com.permission.MAPS_RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/title_activity_camera" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_bienvenido" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <meta-data
+                    android:name="android.support.UI_OPTIONS"
+                    android:value="splitActionBarWhenNarrow" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".verRutasActivity"
+            android:label="@string/title_activity_ver_rutas" >
+        </activity>
+        <activity
+            android:name=".rutaIndividualActivity"
+            android:label="@string/title_activity_ruta_individual" >
+        </activity>
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/title_activity_map" >
+        </activity>
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC5gBVXtVOUWXD_jg_Gs-TFOv3PbYhVpd4" />
+
+        <activity
+            android:name=".AgregarParqueActivity"
+            android:label="@string/title_activity_agregar_parque" >
+        </activity>
+        <activity
+            android:name=".AgregarRutaActivity"
+            android:label="@string/title_activity_agregar_ruta" >
+        </activity>
+    </application>
+
+</manifest>
